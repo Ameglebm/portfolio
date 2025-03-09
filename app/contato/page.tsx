@@ -67,7 +67,11 @@ export default function Contato() {
               </div>
               <div>
                 <h3 className="font-medium text-white">Email</h3>
-                <p className="text-sm text-slate-400">contato@exemplo.com</p>
+                <p className="text-sm text-slate-400">
+                  <a href="mailto:contato@exemplo.com" className="text-blue-400 hover:underline">
+                    contato@exemplo.com
+                  </a>
+                </p>
               </div>
             </div>
 
@@ -77,7 +81,11 @@ export default function Contato() {
               </div>
               <div>
                 <h3 className="font-medium text-white">LinkedIn</h3>
-                <p className="text-sm text-slate-400">linkedin.com/in/alisson-amegle</p>
+                <p className="text-sm text-slate-400">
+                  <a href="https://linkedin.com/in/alisson-amegle" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    linkedin.com/in/alisson-amegle
+                  </a>
+                </p>
               </div>
             </div>
 
@@ -87,7 +95,11 @@ export default function Contato() {
               </div>
               <div>
                 <h3 className="font-medium text-white">GitHub</h3>
-                <p className="text-sm text-slate-400">github.com/alisson-amegle</p>
+                <p className="text-sm text-slate-400">
+                  <a href="https://github.com/alisson-amegle" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    github.com/alisson-amegle
+                  </a>
+                </p>
               </div>
             </div>
           </div>
