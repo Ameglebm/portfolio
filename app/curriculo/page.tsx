@@ -51,7 +51,11 @@ export default function Curriculo() {
                     />
                   </svg>
                 </div>
-                <p className="text-sm text-slate-300">contato@exemplo.com</p>
+                <p className="text-sm text-slate-300">
+                  <a href="mailto:amegledev@gmail.com" className="text-blue-400 hover:underline">
+                    amegledev@gmail.com
+                  </a>
+                </p>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-full bg-blue-600/20 flex items-center justify-center">
@@ -64,7 +68,11 @@ export default function Curriculo() {
                     />
                   </svg>
                 </div>
-                <p className="text-sm text-slate-300">linkedin.com/in/alisson-amegle</p>
+                <p className="text-sm text-slate-300">
+                  <a href="https://linkedin.com/in/alisson-amegle" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    linkedin.com/in/alisson-amegle
+                  </a>
+                </p>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-full bg-blue-600/20 flex items-center justify-center">
@@ -77,7 +85,11 @@ export default function Curriculo() {
                     />
                   </svg>
                 </div>
-                <p className="text-sm text-slate-300">github.com/alisson-amegle</p>
+                <p className="text-sm text-slate-300">
+                  <a href="https://github.com/ameglebm" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    github.com/ameglebm
+                  </a>
+                </p>
               </div>
             </div>
           </div>
