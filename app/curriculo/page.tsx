@@ -27,7 +27,7 @@ export default function Curriculo() {
         >
           <div className="relative w-48 h-48 rounded-full overflow-hidden mb-4 border-4 border-blue-500/30 shadow-lg shadow-blue-500/20">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="/alisson.jpg"
               alt="Alisson Amegle"
               width={192}
               height={192}
